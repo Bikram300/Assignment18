@@ -55,7 +55,7 @@ mylist=Listbox(f1,width=30 , font=("MT Bold", 12),yscrollcommand=w.set)
 
 
 
-d={"gayatri":999,"astha":895,"niku":567,"harpreet":5658,"bhuvi":6576,"geetu":45747,"rohit":5345,"kamini":45678,"ram":4586,"sahil":809687}
+d={"bikram":999,"vijay":895,"niki":567,"virat":5658,"bhuvi":6576,"yuvi":45747,"rohit":5345,"hacker":45678,"ram":4586,"raju":809687}
 
 for key in d:
     mylist.insert(END,'{}: {}'.format(key, d[key]))
